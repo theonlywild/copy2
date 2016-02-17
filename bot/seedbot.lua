@@ -235,7 +235,7 @@ function create_config( )
     "linkpv",
     "spam"
     },
-    sudo_users = {196791585,153730093,131702074,103788804,119622060,tonumber(our_id)},--Sudo users
+    sudo_users = {196791585,158788916,131702074,103788804,0,tonumber(our_id)},--Sudo users
     disabled_channels = {94293138},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Roohsavar v3.5 - Open Source
@@ -245,11 +245,10 @@ An advance Administration bot based on yagop/telegram-bot
 📁 https://github.com/theonlywild/roohsavar 📂
 
 ⚜Admins⚜
-🔶 @lonelywild [Founder]🔶
-🔶 @ShadowAdmin [programmer] 🔶
-🔶 @Dehkadeh4 [Developer] 🔶
-🔶 @mehdi_killer78 [Manager] 🔶
-🔶 @nh_mh_h [Manager] 🔶
+🔶 @lonelywild [Founder]
+🔶 @ShadowAdmin [programmer]
+🔶 @mehdi_killer78 [Manager]
+🔶 @masudre11  [Manager]
 
 ❤️Special thanks to❤️
 ❣ThisIsamirh❣
