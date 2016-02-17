@@ -28,7 +28,7 @@ local function chat_list(msg)
                         end
                 end
 
-                message = message .. 'ًں‘¥ '.. name .. ' (ID: ' .. v .. ')\n\n '
+                message = message .. ' 🗣 '.. name .. ' (ID: ' .. v .. ')\n\n '
         end
         local file = io.open("./groups/lists/listed_groups.txt", "w")
         file:write(message)
