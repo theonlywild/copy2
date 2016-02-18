@@ -217,7 +217,7 @@
 >>>This command will set [User_id] as the owner of [group_id]
 
 ### Bot stats 
->[!/]stats teleseed
+>[!/]stats roohsavar
 >>This command will return bot stats
 
 # Realm Help
@@ -477,6 +477,11 @@ Check out this tutorial by: [Telegram Geeks](http://telegramgeeks.com/2016/01/te
 
 Do not contact **us** In private for support.
 Join our bot development group by sending `/join 85216216` to [@roohsavarbot](https://telegram.me/roohsavarbot)
+
+
+
+
+
 
 
 END
