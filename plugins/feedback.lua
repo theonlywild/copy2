@@ -9,7 +9,7 @@ do
    local chat = "chat#id"..94293138
    
   local sends = send_msg(chat, fuse, ok_cb, false)
-  return 'SenT👍'
+  return 'Send To Admins Group 👍'
  
  end
  end
