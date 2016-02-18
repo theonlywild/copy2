@@ -12,7 +12,7 @@ if msg.to.type == 'chat' then
       if antienglish[msg.from.id] == true then 
         return
       end
-      send_large_msg("chat#id".. msg.to.id , "اینگلسی ممنوع بوده است")
+      send_large_msg("chat#id".. msg.to.id , "english is forbidden")
       local name = user_print_name(msg.from)
       savelog(msg.to.id, name.." ["..msg.from.id.."] kicked (english was locked) ")
       chat_del_user('chat#id'..msg.to.id,'user#id'..msg.from.id,ok_cb,false)
@@ -34,6 +34,42 @@ return {
 	"(A)",
 	"(O)",
 	"(L)",
+	"(q)",
+	"(Q)",
+	"(w)",
+	"(W)",
+	"(r)",
+	"(R)",
+	"(t)",
+	"(T)",
+	"(y)",
+	"(Y)",
+	"(p)",
+	"(P)",
+	"(s)",
+	"(S)",
+	"(d)",
+	"(D)",
+	"(f)",
+	"(F)",
+	"(g)",
+	"(G)",
+	"(h)",
+	"(H)",
+	"(j)",
+	"(J)",
+	"(k)",
+	"(K)",
+	"(z)",
+	"(Z)",
+	"(X)",
+	"(x)",
+	"(v)",
+	"(V)",
+	"(b)",
+	"(B)",
+	"(N)",
+	"(n)",
 	"(M)",
 	"(e)",
 	"(E)",
